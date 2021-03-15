@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Morkachukzy/Interactive_pricing_comp)
+- Solution URL: [Interactive Price Component](https://github.com/Morkachukzy/Interactive_pricing_comp)
 
 
 ### Built with
