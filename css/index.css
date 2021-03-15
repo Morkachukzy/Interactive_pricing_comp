@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-VariableFont_wght.ttf");
+}
+
+:root {
+  font-size: calc(0.7375rem + 0.1vw);
+  font-family: "Manrope", sans-serif;
+  --cta-text: hsl(226, 100%, 87%);
+  --discount-text: hsl(15, 100%, 70%);
+  --full-slider-bar: hsl(174, 77%, 80%);
+  --slider-bg: hsl(174, 86%, 45%);
+  --discount-bg: hsl(14, 92%, 95%);
+  --main-bg-neutral: hsl(230, 100%, 99%);
+  --pricing-component-bg-neutral: hsl(0, 0%, 100%);
+  --empty-slider-bar-neutral: hsl(224, 65%, 95%);
+  --toggle-bg-neutral: hsl(223, 50%, 87%);
+  --text-neutral: hsl(225, 20%, 60%);
+  --text-cta-bg-neutral: hsl(227, 35%, 25%);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  background: var(--main-bg-neutral) url("../images/bg-pattern.svg") no-repeat;
+  color: var(--text-neutral);
+  font-weight: 600;
+}
+
+main {
+  margin: 2em auto;
+}
+
+.title {
+  padding: 1em 2em;
+  margin: 5em 2em;
+  text-align: center;
+  background: url("../images/pattern-circles.svg") center center/contain no-repeat;
+}
+
+.title-main {
+  font-size: 1.7em;
+  font-weight: 800;
+  color: var(--text-cta-bg-neutral);
+  line-height: 0.7;
+}
+
+.title-info {
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 2.3;
+}
+
+.title-info > span {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .title-info > span {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background: var(--main-bg-neutral) url("../images/bg-pattern.svg") top left/100% no-repeat;
+  }
+}
+/*# sourceMappingURL=index.css.map */

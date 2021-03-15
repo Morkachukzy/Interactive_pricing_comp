@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" type="image/png" href="./logo/favicon-32x32.png" sizes="32x32">
+    <script src="./js/index.mjs" type="module" defer></script>
+    <title>Interactive Pricing Component</title>
+</head>
+
+<body>
+    <main>
+        <header class="title">
+            <h1 class="title-main">Simple, traffic-based pricing</h1>
+            <p class="title-info">
+                Sign-up for our 30-day trial. <span>No credit card required</span>
+            </p>
+        </header>
+        <!-- pricing component -->
+        <link rel="stylesheet" href="./modules/pricing-component/css/pricing-component.css">
+        <div class="pricing">
+            <div class="pricing-header">
+                <p class="pricing-pageviews">100k pageviews</p>
+                <!-- slider component -->
+                <link rel="stylesheet" href="./modules/slider/css/slider.css">
+                <div class="slider">
+                    <input type="range" class="slider-bar" min="1" max="3" value="1" steps="1">
+                </div>
+                <p class="pricing-plan">
+                    <span class="amount"></span>
+                    <span class="duration"></span>
+                </p>
+                <div class="pricing-billing">
+                    <div class="pricing-billing-monthly">Monthly billing</div>
+                    <!-- toggle component -->
+                    <link rel="stylesheet" href="./modules/toggle/css/toggle.css">
+                    <div class="toggle">
+                        <div></div>
+                    </div>
+                    <div class="pricing-billing-yearly">
+                        Yearly billing
+                        <span class="discount">-25%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-footer">
+                <div class="pricing-info">
+                    <ul>
+                        <li>Unlimited websites</li>
+                        <li>100% data ownership</li>
+                        <li>Email reports</li>
+                    </ul>
+                </div>
+                <button class="pricing-cta">Start my trial</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

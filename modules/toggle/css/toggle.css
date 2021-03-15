@@ -1,0 +1,47 @@
+.toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3em;
+  background-color: var(--toggle-bg-neutral);
+  border-radius: 1em;
+  height: 1.5em;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.is-toggle-monthly {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: var(--toggle-bg-neutral);
+}
+
+.is-toggle-yearly {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: var(--slider-bg);
+}
+
+.toggle:hover {
+  cursor: pointer;
+  background-color: var(--full-slider-bar);
+}
+
+.toggle > div {
+  -ms-flex-preferred-size: 39%;
+      flex-basis: 39%;
+  height: 75%;
+  width: 100%;
+  background-color: white;
+  border-radius: 200em;
+  margin: 1em 0.2em;
+}
+/*# sourceMappingURL=toggle.css.map */

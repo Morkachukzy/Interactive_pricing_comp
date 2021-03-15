@@ -1,0 +1,33 @@
+.slider {
+  margin: 3em auto;
+}
+
+.slider-bar {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 85%;
+  height: 7px;
+  border-radius: 3em;
+  background-color: var(--empty-slider-bar-neutral);
+  outline: none;
+  border: none;
+}
+
+.slider-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  height: 3.3em;
+  width: 3.3em;
+  border-radius: 200em;
+  background: var(--slider-bg) url("../images/icon-slider.svg") center center/1.8em no-repeat;
+  cursor: pointer;
+  color: #dee2e6;
+  -webkit-box-shadow: 0 15px 20px 5px var(--full-slider-bar);
+          box-shadow: 0 15px 20px 5px var(--full-slider-bar);
+}
+
+.slider-bar::-webkit-slider-thumb:hover {
+  background-color: var(--full-slider-bar);
+}
+/*# sourceMappingURL=slider.css.map */
